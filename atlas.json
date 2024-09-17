@@ -1,0 +1,57 @@
+{
+  "branch": "master",
+  "files": [
+    "titlepage.html",
+    "copyright.html",
+    "toc.html",
+    "README.md",
+    "cloud-as-default.md",
+    "ci-servers.md",
+    "codebase.md",
+    "local-dev.md",
+    "manage-environment.md",
+    "monitoring.md",
+    "testing-tools.md",
+    "containers.md",
+    "realtime-chat-and-chatbots.md",
+    "contributors.md",
+    "survey-form.html",
+    "application_stacks.md"
+  ],
+  "formats": {
+    "pdf": {
+      "version": "web",
+      "index": true,
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "epub": {
+      "index": false,
+      "toc": true,
+      "epubcheck": true,
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": true,
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "html": {
+      "index": false,
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false,
+      "consolidate": false,
+      "consolidated": false
+    }
+  },
+  "theme": "git@github.com:odewahn/simple_theme.git",
+  "title": "A Field Guide to the Distributed Development Stack ",
+  "github_url": "https://github.com/odewahn/dds-field-guide",
+  "practice-area": "webops",
+  "ga_code": "UA-39014713-4",
+  "forum_shortname": "dockerjumpstart"
+}
