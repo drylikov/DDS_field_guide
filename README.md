@@ -12,15 +12,6 @@ But where would something like CoreOS, Docker, or Mesos fit? As I thought about 
 
 Simultaneously, other people at O'Reilly were also exploring this same question, but from a different perspective. In "[Everything is distributed](http://radar.oreilly.com/2014/05/everything-is-distributed.html)," Courtney Nash, the chair of [Velocity](http://velocityconf.com/), was asking "how do we manage systems that are too large to understand, too complex to control, and that fail in unpredictable ways." In "[Beyond the stack](http://radar.oreilly.com/2014/05/beyond-the-stack.html)," Mike Loukides was thinking about how "a new toolset has grown up to support the development of massively distributed applications," and described the profound consequences that the shift from well-tended, internal servers to disposable VMs was having on the traditional "LAMP" stack. (As well as its hipster cousin, the [MEAN stack](http://meanjs.org/).)  
 
-So, it's from this context that my Sticky list grew into this [Field Guide to the Distributed Development Stack](http://sites.oreilly.com/odewahn/dds-field-guide/). The Guide is organized into buckets based on a general observation, such as:
-
-* [The cloud is the default platform](http://sites.oreilly.com/odewahn/dds-field-guide/ch02.html)
-* [CI servers deploy code, not ops](http://sites.oreilly.com/odewahn/dds-field-guide/ch03.html)
-* [The codebase is in git](http://sites.oreilly.com/odewahn/dds-field-guide/ch04.html)
-* [The entire application runs locally in development](http://sites.oreilly.com/odewahn/dds-field-guide/ch05.html)
-* [The environment is automated in the code](http://sites.oreilly.com/odewahn/dds-field-guide/ch06.html)
-* [The monitoring infrastructure is critical](http://sites.oreilly.com/odewahn/dds-field-guide/ch07.html)
-* [Tests done in code, not by a QA department](http://sites.oreilly.com/odewahn/dds-field-guide/ch08.html)
 
 In addition to being a (hopefully) useful framework, the Guide is also meant to be a living resource. So, [we've put the source on GitHub](https://github.com/odewahn/dds-field-guide) and invite you to contribute. If you feel like we've missed a tool (which we most certainly have, since new things are popping up every day) or a major theme, then fork the repo and send me a pull request. We'll be keeping this document up to date and republishing it as we watch this trend continue to grow.  We'll use [O'Reilly Atlas](https://atlas.oreilly.com) to pull in the contributions and periodically republish the guide.
 
